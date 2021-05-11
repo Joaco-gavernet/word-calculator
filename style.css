@@ -1,0 +1,87 @@
+/* Reseteos */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  text-decoration: none; 
+  color: inherit; 
+  text-decoration: inherit;
+}
+
+a:hover{
+  color: #93a1b8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*  */
+
+body {
+  background: #324260;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fffdf8;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  border-radius: 5%;
+}
+
+.cardTitle {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.wordInput {
+  min-width: 500px;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: 1px solid #1a1a1a;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.output {
+  font-size: 1.5rem;
+}
+
+.buttonCalculate {
+  width: 200px;
+  height: 50px;
+  align-self: center;
+  justify-self: flex-end;
+  background: #324260;
+  border-radius: 20px;
+  border: none;
+  color: #cccbcb;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: none;
+  cursor: pointer;
+  margin-top: 40px;
+  transition: all, 1s;
+}
+
+.buttonCalculate:hover {
+  background: #415780;
+  transform: scale(1.08);
+}
